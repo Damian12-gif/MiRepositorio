@@ -34,10 +34,12 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
         //Creacion de nuava rama!
-        text = "Hola Julian y Damian!",
+        //Cambio en la rama
+        text = "Hola Julian y Damian de TI!",
         modifier = modifier
     )
 }
+
 
 @Preview(showBackground = true)
 @Composable
